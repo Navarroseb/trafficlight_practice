@@ -4,28 +4,20 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [bright, setBright] = useState('glow')
-
-  const changeBgc = () => {
-    setBright(bright === 'glow' ? "lights" : 'glow')
-    setBright(bright === 'glow' ? "#yellowlight" : 'glow')
-    setBright(bright === 'glow' ? "#greenlight" : 'glow')
-    
-
-  }
+  const [color, setColor] = useState("glow")
 
   return (
     <>
       <div className="semaforo">
         <div className="lights">
-          <div className={bright} id="redlight" onClick={changeBgc}>
-
+          <div onClick={() => setColor("redlight")} 
+               className={ "red" + (color === "redlight" ? " glow" : "")} >
           </div>
-          <div className={bright} id="yellowlight" onClick={changeBgc}>
-
+          <div onClick={() => setColor("yellowlight")} 
+               className={ "yellow" + (color === "yellowlight" ? " glow" : "")} >
           </div>
-          <div className={bright} id="greenlight" onClick={changeBgc}>
-
+          <div onClick={() => setColor("greenlight")} 
+               className={ "green" + (color === "greenlight" ? " glow" : "")} >
           </div>
           
         </div>

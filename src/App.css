@@ -24,7 +24,7 @@
   align-content: space-between;
 }
 
-#redlight {
+.redlight {
   border-radius: 80%;
   width: 180px; 
   height: 150px;
@@ -32,7 +32,7 @@
   margin-bottom: 5px;
 }
 
-#yellowlight {
+.yellowlight {
   border-radius: 80%;
   width: 180px; 
   height: 150px;
@@ -40,7 +40,7 @@
   margin-bottom: 5px;
 }
 
-#greenlight {
+.greenlight {
   border-radius: 80%;
   width: 180px; 
   height: 150px;
