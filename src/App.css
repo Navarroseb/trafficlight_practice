@@ -18,12 +18,6 @@
   background-color: black;
 }
 
-.lights {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-}
-
 .redlight {
   border-radius: 80%;
   width: 180px; 
@@ -45,7 +39,7 @@
   width: 180px; 
   height: 150px;
   background-color: green;
-  box-shadow: var(--my-glow);
+ 
   
   
 }
