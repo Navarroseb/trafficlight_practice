@@ -38,11 +38,13 @@
   border-radius: 80%;
   width: 180px; 
   height: 150px;
-  background-color: green;
- 
-  
-  
+  background-color: green;  
 }
-
+.purplelight {
+  border-radius: 80%;
+  width: 180px; 
+  height: 150px;
+  background-color: purple;
+}
 
 
