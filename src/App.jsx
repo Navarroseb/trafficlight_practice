@@ -21,11 +21,7 @@ function App() {
         <div className={`greenlight ${color === 'greenlight' ? 'glow' : ''}`}
           onClick={() => colorEvent('greenlight')}>
         </div>
-        <button onClick={ () =>{
-          console.log("Hiciste Clic")
-        }}>
-        Agrega un color
-      </button>
+        
       </div>
       
     </>
