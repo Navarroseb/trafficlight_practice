@@ -22,7 +22,7 @@ function App() {
           onClick={() => colorEvent('greenlight')}>
         </div>
         <button onClick={ () =>{
-          console.log("click")
+          console.log("Hiciste Clic")
         }}>
         Agrega un color
       </button>
